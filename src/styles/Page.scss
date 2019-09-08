@@ -1,0 +1,7 @@
+@import './index.scss'; 
+// @import '~nprogress/nprogress';
+
+.page {
+    min-height: 100vh;
+    @include grad-linear($col1, $col2);
+}

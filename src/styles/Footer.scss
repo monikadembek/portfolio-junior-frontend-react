@@ -1,0 +1,17 @@
+@import 'index.scss';
+
+.footer {
+    display: flex;
+    flex-diretion: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+
+    a {
+        color: $white;
+        transition: all 0.3s;
+
+        &:hover {
+            transform: scale(1.4);
+        }
+    }
+  }
