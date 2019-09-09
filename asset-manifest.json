@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-junior-frontend-react/static/css/main.8afde091.chunk.css",
+    "main.js": "/portfolio-junior-frontend-react/static/js/main.a39085d0.chunk.js",
+    "main.js.map": "/portfolio-junior-frontend-react/static/js/main.a39085d0.chunk.js.map",
+    "runtime~main.js": "/portfolio-junior-frontend-react/static/js/runtime~main.b804f93e.js",
+    "runtime~main.js.map": "/portfolio-junior-frontend-react/static/js/runtime~main.b804f93e.js.map",
+    "static/js/2.687cdee6.chunk.js": "/portfolio-junior-frontend-react/static/js/2.687cdee6.chunk.js",
+    "static/js/2.687cdee6.chunk.js.map": "/portfolio-junior-frontend-react/static/js/2.687cdee6.chunk.js.map",
+    "index.html": "/portfolio-junior-frontend-react/index.html",
+    "precache-manifest.3cebd23a57b101285e031a24cecec629.js": "/portfolio-junior-frontend-react/precache-manifest.3cebd23a57b101285e031a24cecec629.js",
+    "service-worker.js": "/portfolio-junior-frontend-react/service-worker.js",
+    "static/css/main.8afde091.chunk.css.map": "/portfolio-junior-frontend-react/static/css/main.8afde091.chunk.css.map"
+  }
+}
