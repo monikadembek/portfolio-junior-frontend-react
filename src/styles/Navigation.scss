@@ -1,0 +1,70 @@
+@import 'index.scss';
+
+.nav-title {
+    margin-bottom: 5rem;;
+    text-align: center;
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 6px;
+        
+        a {
+
+        }
+    }
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+
+.main-nav {
+    margin-left: 30px;
+    text-align: left;
+
+    li {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+
+        .main-nav__link {
+            display: inline-block;
+            position: relative;
+            z-index:3;
+
+            &:before {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                width: 60%;
+                height: 10px;
+                // background-color: $col1;
+                z-index: 1;
+                transition: all 0.4s;
+            }
+
+            &:hover:before {
+                width: 100%;
+            }
+        }
+
+        &:nth-child(1) .main-nav__link:before {
+            @include grad-linear($col3, $col4);
+        }
+
+        &:nth-child(2) .main-nav__link:before {
+            @include grad-linear($col5, $col6);
+        }
+
+        &:nth-child(3) .main-nav__link:before {
+            @include grad-linear($col1, $col2);
+        }
+
+        &:nth-child(4) .main-nav__link:before {
+            @include grad-linear($col7, $col8);
+        }
+        
+    }
+}

@@ -4,4 +4,5 @@
 .page {
     min-height: 100vh;
     @include grad-linear($col1, $col2);
+    padding: 5rem 3rem;
 }

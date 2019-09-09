@@ -3,6 +3,12 @@ $black: #000000;
 $white: #ffffff;
 $col1: #291853;
 $col2: #41399D;
+$col3: #053765;
+$col4: #035F53;
+$col5: #993366;
+$col6: #E5097F;
+$col7: #952031;
+$col8: #F04C29;
 
 // reset
 *,
@@ -13,7 +19,7 @@ $col2: #41399D;
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
 
 // mixins
 @mixin grad-linear($col1, $col2) {
@@ -22,14 +28,29 @@ $col2: #41399D;
 
 a {
   text-decoration: none;
+  color: $white;
+  transition: all 0.3s;
+
+  &:hover {
+    color: $col2;
+  }
 }
   
+ul {
+  list-style: none;
+}
 
+p {
+  margin-bottom: 1.8rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
 
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $white;
 }
 
