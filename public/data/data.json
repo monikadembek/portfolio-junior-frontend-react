@@ -1,0 +1,162 @@
+{
+    "portfolio": [
+        {
+            "id": 1,
+            "title": "PSD 2 HTML - Bicycle theme",
+            "technologies": [
+                "html",
+                "sass",
+                "javascript",
+                "bem",
+                "css grid"
+            ],
+            "description": "Free PSD layout coded into website",
+            "thumbSrc": ""
+        },
+        {
+            "id": 2,
+            "title": "Budget App",
+            "technologies": [
+                "html",
+                "css",
+                "javascript"
+            ],
+            "description": "App which calculates your budget, sums your income and expenses and saves them to local storage",
+            "thumbSrc": ""
+        },
+        {
+            "id": 3,
+            "title": "JavaScript simple functionalities",
+            "technologies": [
+                "html",
+                "css",
+                "javascript"
+            ],
+            "description": "A set of simple scripts written in vanilla javascript: accordion, animated counter, animations when in viewport, sticky nav, smooth scrolling to section",
+            "thumbSrc": ""
+        },
+        {
+            "id": 4,
+            "title": "Pig Game",
+            "technologies": [
+                "html",
+                "css",
+                "javascript"
+            ],
+            "description": "Dice game",
+            "thumbSrc": ""
+        },
+        {
+            "id": 5,
+            "title": "Weather App",
+            "technologies": [
+                "html",
+                "css",
+                "javascript",
+                "ajax"
+            ],
+            "description": "This app displays current weather in choosen city",
+            "thumbSrc": ""
+        },
+        {
+            "id": 6,
+            "title": "Calculator",
+            "technologies": [
+                "html",
+                "css",
+                "javascript"
+            ],
+            "description": "Calculator app",
+            "thumbSrc": ""
+        },
+        {
+            "id": 7,
+            "title": "Wiktoria - Company Website",
+            "technologies": [
+                "wordpress"
+            ],
+            "description": "Website made in wordpress for the company I work in",
+            "thumbSrc": ""
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML5",
+            "imgSrc": "img/prog-lang/html5-original.svg",
+            "info": "semantic syntax"
+        },
+        {
+            "id": 2,
+            "name": "CSS3",
+            "imgSrc": "img/prog-lang/css3-original.svg",
+            "info": "Responsive web design"
+        },
+        {
+            "id": 3,
+            "name": "Sass",
+            "imgSrc": "img/prog-lang/sass-original.svg",
+            "info": ""
+        },
+        {
+            "id": 4,
+            "name": "JavaScript",
+            "imgSrc": "img/prog-lang/javascript-original.svg",
+            "info": "Functions, objects, DOM, AJAX, API"
+        },
+        {
+            "id": 5,
+            "name": "ES6",
+            "imgSrc": "img/prog-lang/css3-original.svg",
+            "info": ""
+        },
+        {
+            "id": 6,
+            "name": "jQuery",
+            "imgSrc": "img/prog-lang/jquery-original-wordmark.svg",
+            "info": ""
+        },
+        {
+            "id": 7,
+            "name": "Git",
+            "imgSrc": "img/prog-lang/git-original.svg",
+            "info": ""
+        },
+        {
+            "id": 8,
+            "name": "Github",
+            "imgSrc": "img/prog-lang/github-original.svg",
+            "info": ""
+        },
+        {
+            "id": 9,
+            "name": "Npm",
+            "imgSrc": "img/prog-lang/wordpress-plain.svg",
+            "info": ""
+        },
+        {
+            "id": 10,
+            "name": "Bootstrap",
+            "imgSrc": "img/prog-lang/wordpress-plain.svg",
+            "info": ""
+        },
+        {
+            "id": 11,
+            "name": "Wordpress",
+            "imgSrc": "img/prog-lang/wordpress-plain.svg",
+            "info": ""
+        },
+        {
+            "id": 12,
+            "name": "Adobe Photoshop",
+            "imgSrc": "img/prog-lang/photoshop-plain.svg",
+            "info": "PSD 2 HTML"
+        },
+        {
+            "id": 13,
+            "name": "Adobe XD",
+            "imgSrc": "img/prog-lang/photoshop-plain.svg",
+            "info": "preparing mockups for desktop and mobile layouts"
+        }
+    ]
+}
