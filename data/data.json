@@ -90,72 +90,78 @@
             "id": 2,
             "name": "CSS3",
             "imgSrc": "img/prog-lang/css3-original.svg",
-            "info": "Responsive web design"
+            "info": "responsive web design"
         },
         {
             "id": 3,
             "name": "Sass",
             "imgSrc": "img/prog-lang/sass-original.svg",
-            "info": ""
+            "info": "nesting, variables, mixins, extends, partials"
         },
         {
             "id": 4,
             "name": "JavaScript",
             "imgSrc": "img/prog-lang/javascript-original.svg",
-            "info": "Functions, objects, DOM, AJAX, API"
+            "info": "functions, OOP, DOM, AJAX, JSON, API"
         },
         {
             "id": 5,
-            "name": "ES6",
-            "imgSrc": "img/prog-lang/css3-original.svg",
-            "info": ""
+            "name": "ES6+",
+            "imgSrc": "img/prog-lang/es6-icon.png",
+            "info": "let, const, arrow functions, template literals, destructuring, promises, imports/exports, classes"
         },
         {
             "id": 6,
             "name": "jQuery",
             "imgSrc": "img/prog-lang/jquery-original-wordmark.svg",
-            "info": ""
+            "info": "selectors, DOM manipulations, animations, AJAX functions"
         },
         {
             "id": 7,
-            "name": "Git",
-            "imgSrc": "img/prog-lang/git-original.svg",
-            "info": ""
+            "name": "React",
+            "imgSrc": "img/prog-lang/React-icon.svg",
+            "info": "basic knowledge of React, components, props, state, React Router"
         },
         {
             "id": 8,
-            "name": "Github",
-            "imgSrc": "img/prog-lang/github-original.svg",
-            "info": ""
+            "name": "Git",
+            "imgSrc": "img/prog-lang/git-original.svg",
+            "info": "basic usage of GIT"
         },
         {
             "id": 9,
-            "name": "Npm",
-            "imgSrc": "img/prog-lang/wordpress-plain.svg",
-            "info": ""
+            "name": "Github",
+            "imgSrc": "img/prog-lang/github-original.svg",
+            "info": "posting projects on remote repository, github pages"
         },
         {
             "id": 10,
-            "name": "Bootstrap",
-            "imgSrc": "img/prog-lang/wordpress-plain.svg",
-            "info": ""
+            "name": "Npm",
+            "imgSrc": "img/prog-lang/Npm-logo.svg",
+            "info": "installing packets, using npm as task manager"
         },
         {
             "id": 11,
-            "name": "Wordpress",
-            "imgSrc": "img/prog-lang/wordpress-plain.svg",
+            "name": "Bootstrap",
+            "imgSrc": "img/prog-lang/bootstrap-stack-490x412.png",
             "info": ""
         },
         {
             "id": 12,
+            "name": "Wordpress",
+            "imgSrc": "img/prog-lang/wordpress-plain-white.svg",
+            "info": "making webites with ready themes, modifying ready themes"
+        },
+        {
+            "id": 13,
             "name": "Adobe Photoshop",
             "imgSrc": "img/prog-lang/photoshop-plain.svg",
             "info": "PSD 2 HTML"
         },
         {
-            "id": 13,
+            "id": 14,
             "name": "Adobe XD",
-            "imgSrc": "img/prog-lang/photoshop-plain.svg",
+            "imgSrc": "img/prog-lang/Adobe_XD_CC_icon.svg",
             "info": "preparing mockups for desktop and mobile layouts"
         }
     ]
