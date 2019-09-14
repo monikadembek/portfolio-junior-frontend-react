@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import PageTitle from '../components/PageTitle';
 import Skill from '../components/Skill';
+import '../styles/SkillsPage.scss';
 
 const api = 'data/data.json';
 
@@ -33,8 +35,10 @@ class SkillsPage extends Component {
 
         return (
             <div>
-                skills page
-                {skills.length > 0 ? skills : <p>Currently there are no skills to show</p>}
+                <PageTitle title="skills" />
+                <div className="skills-cnt">
+                    {this.state.isLoaded ? skills : <p>Currently there are no skills to show</p>}
+                </div>
             </div>
         );
     }

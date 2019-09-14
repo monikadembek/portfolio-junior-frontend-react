@@ -3,6 +3,8 @@
 
 .page {
     min-height: 100vh;
+    height: 500px;
+    overflow: auto;
     @include grad-linear($col1, $col2);
     padding: 5rem 3rem;
 }

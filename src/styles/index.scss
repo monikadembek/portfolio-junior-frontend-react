@@ -19,7 +19,34 @@ $col8: #F04C29;
   box-sizing: border-box;
 }
 
+// scrollbar
+// width 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+// Track 
+::-webkit-scrollbar-track {
+  background: #000000; 
+  border-radius: 5px;
+}
+ 
+// Handle 
+::-webkit-scrollbar-thumb {
+  background: lighten($col2, 20%); 
+  border-radius: 5px;
+}
+
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: lighten($col2, 30%);  
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap');
+
+$fontStack1: 'Lato', sans-serif;
+$fontStack2: 'Kalam', cursive;
 
 // mixins
 @mixin grad-linear($col1, $col2) {
