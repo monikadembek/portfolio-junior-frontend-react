@@ -1,0 +1,56 @@
+@import "index.scss";
+
+.about {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.5;
+
+    &__header {
+        margin-bottom: 15px;
+        border-bottom: 2px solid $white;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+
+        & li {
+            padding-bottom: 15px;
+        }
+
+        & li:nth-child(odd) {
+            flex: 1 30%;
+            padding-right: 10px;
+        }
+
+        & li:nth-child(even) {
+            flex: 1 70%;
+        }
+        
+    }
+
+
+}
+
+.bio-photo {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 20px;
+
+    &::before {
+        content: "";
+        display: block;
+        clear: both;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: $col5;
+        z-index: 330;
+    }
+}

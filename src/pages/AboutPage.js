@@ -1,18 +1,40 @@
 import React from 'react';
 import PageTitle from '../components/PageTitle.js';
+import "../styles/AboutPage.scss";
 
 
 const AboutPage = () => {
     return (
-        <>
+        <div className="wrapper">
             <PageTitle title="about" />
-            <p>
-                Hi. My name is Monika Dembek. I'm from Bydgoszcz, Poland. I've been working as a graphic designer for 12 years, designing mainly DTP materials. I've come to a point where I want some change.</p>
-            <p>
-                At the beginning of 2018 I fully commited to learning front-end development. Day by day I've been getting to know HTML, CSS and JavaScript. Then came sass, git and some jQuery. JavaScript was the toughest part for me, the most demanding and rewarding at the same time. In the firt part of 2019 i landed my first job as a junior frontend developer and this is when the real journey started.</p>
-            <p>
-                I created this website to present my current skills set and examples of my code. I am constantly trying to improve my skills to become better frontend developer</p>
-        </>
+            <div className="about">
+                <img src="img/mina-pic.jpg" alt="bio" className="bio-photo" />
+                <div className="about__content">
+                    <h2 className="about__header">Facts</h2>
+                    <ul className="about__list">
+                        <li>Name:</li><li>Monika Dembek</li>
+                        <li>City:</li><li>Bydgoszcz, Poland</li>
+                        <li>Education:</li><li>IT engeener</li>
+                        <li>Professional experience:</li><li>Graphic designer for 13 years, designing mainly DTP materials, working in advertisig agencies and as a freelancer</li>
+                        <li>Current job:</li><li>Junior frontend developer</li>
+                    </ul>
+                    <h2 className="about__header">Goals</h2>
+                    <ul className="about__list">
+                        <li>General:</li><li>Developing my skills as frontend developer, quickly progressing into regular position</li>
+                        <li>Next to learn:</li><li>Redux <br />Google Firebase<br />Styled Components</li>
+                    </ul>
+                    <h2 className="about__header">Fun facts</h2>
+                    <ul className="about__list">
+                        <li>Lifestyle:</li><li>Vegetarian</li>
+                        <li>Animals:</li><li>one assasin cat</li>
+                        <li>Enjoy:</li><li>attending live concerts<br />going to cinema</li>
+                        <li>Favoutite cities:</li><li>Prague and Amsterdam</li>
+                        <li>Current tv series:</li><li>La casa de papel</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
     );
 }
 

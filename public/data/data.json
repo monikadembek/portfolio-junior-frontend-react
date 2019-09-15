@@ -11,7 +11,9 @@
                 "css grid"
             ],
             "description": "Free PSD layout coded into website",
-            "thumbSrc": ""
+            "thumbSrc": "img/portfolio/yebo-layout-thumb.png",
+            "codeLink": "https://github.com/monikadembek/YEBO-Bicycle-Theme",
+            "pageLink": "https://monikadembek.github.io/YEBO-Bicycle-Theme/index.html"
         },
         {
             "id": 2,
@@ -19,10 +21,13 @@
             "technologies": [
                 "html",
                 "css",
-                "javascript"
+                "javascript",
+                "local storage"
             ],
             "description": "App which calculates your budget, sums your income and expenses and saves them to local storage",
-            "thumbSrc": ""
+            "thumbSrc": "img/portfolio/budget-app-thumb.png",
+            "codeLink": "https://github.com/monikadembek/budget-app",
+            "pageLink": "https://monikadembek.github.io/budget-app/"
         },
         {
             "id": 3,
@@ -33,7 +38,9 @@
                 "javascript"
             ],
             "description": "A set of simple scripts written in vanilla javascript: accordion, animated counter, animations when in viewport, sticky nav, smooth scrolling to section",
-            "thumbSrc": ""
+            "thumbSrc": "img/portfolio/js-simple-functionalities-thumb.png",
+            "codeLink": "https://github.com/monikadembek/JavaScript-simple-functionalities",
+            "pageLink": ""
         },
         {
             "id": 4,
@@ -44,7 +51,9 @@
                 "javascript"
             ],
             "description": "Dice game",
-            "thumbSrc": ""
+            "thumbSrc": "img/portfolio/pig-game-thumb.png",
+            "codeLink": "https://github.com/monikadembek/pig-game",
+            "pageLink": "https://monikadembek.github.io/pig-game/index.html"
         },
         {
             "id": 5,
@@ -53,10 +62,13 @@
                 "html",
                 "css",
                 "javascript",
-                "ajax"
+                "ajax",
+                "openweathermap api"
             ],
             "description": "This app displays current weather in choosen city",
-            "thumbSrc": ""
+            "thumbSrc": "img/portfolio/open-weather-map-thumb.png",
+            "codeLink": "https://github.com/monikadembek/open-weather-map-api",
+            "pageLink": "https://monikadembek.github.io/open-weather-map-api/"
         },
         {
             "id": 6,
@@ -67,7 +79,9 @@
                 "javascript"
             ],
             "description": "Calculator app",
-            "thumbSrc": ""
+            "thumbSrc": "img/portfolio/calculator-thumb.png",
+            "codeLink": "https://github.com/monikadembek/calculator",
+            "pageLink": "https://monikadembek.github.io/calculator/"
         },
         {
             "id": 7,
@@ -76,7 +90,9 @@
                 "wordpress"
             ],
             "description": "Website made in wordpress for the company I work in",
-            "thumbSrc": ""
+            "thumbSrc": "img/portfolio/wiktoria-thumb.png",
+            "codeLink": "",
+            "pageLink": "http://wiktoriareklama.pl/"
         }
     ],
     "skills": [

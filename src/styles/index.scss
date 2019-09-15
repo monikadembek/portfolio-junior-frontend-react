@@ -48,6 +48,8 @@ $col8: #F04C29;
 $fontStack1: 'Lato', sans-serif;
 $fontStack2: 'Kalam', cursive;
 
+$cubic-bezier: cubic-bezier(.28,-0.27,.76,1.26);
+
 // mixins
 @mixin grad-linear($col1, $col2) {
   background-image: linear-gradient(to right, $col1, $col2);
@@ -72,6 +74,26 @@ p {
   line-height: 1.5;
   font-weight: 300;
 }
+
+.wrapper {
+  width: 95%;
+  max-width: 900px;
+}
+
+.btn--square {
+  padding: 8px 18px;
+  background: transparent;
+  border: 1px solid $white;
+  transition: all .3s $cubic-bezier;
+
+  &:hover {
+    background: $white;
+    color: $col2;
+  }
+}
+
+
+
 
 body {
   margin: 0;
