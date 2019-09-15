@@ -11,7 +11,7 @@
                 "css grid"
             ],
             "description": "Free PSD layout coded into website",
-            "thumbSrc": "img/portfolio/yebo-layout-thumb.png",
+            "thumbSrc": "img/portfolio/yebo-layout-thumb.PNG",
             "codeLink": "https://github.com/monikadembek/YEBO-Bicycle-Theme",
             "pageLink": "https://monikadembek.github.io/YEBO-Bicycle-Theme/index.html"
         },
@@ -25,7 +25,7 @@
                 "local storage"
             ],
             "description": "App which calculates your budget, sums your income and expenses and saves them to local storage",
-            "thumbSrc": "img/portfolio/budget-app-thumb.png",
+            "thumbSrc": "img/portfolio/budget-app-thumb.PNG",
             "codeLink": "https://github.com/monikadembek/budget-app",
             "pageLink": "https://monikadembek.github.io/budget-app/"
         },
@@ -106,7 +106,7 @@
             "id": 2,
             "name": "CSS3",
             "imgSrc": "img/prog-lang/css3-original.svg",
-            "info": "responsive web design"
+            "info": "flexbox, css grid, responsive web design"
         },
         {
             "id": 3,
